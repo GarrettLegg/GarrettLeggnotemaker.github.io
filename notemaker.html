@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoteMaker Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>NoteMaker Tool</h1>
+        <div class="input-container">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+        </div>
+        <div class="input-container">
+            <label for="note">Notes:</label>
+            <textarea id="note" rows="4" placeholder="Enter your notes"></textarea>
+        </div>
+        <button id="generate-button">Generate Note</button>
+        <button id="copy-button">Copy Text</button>
+        <div class="output-container">
+            <label for="output">Generated Note:</label>
+            <textarea id="output" rows="4" readonly></textarea>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
